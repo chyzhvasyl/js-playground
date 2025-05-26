@@ -11,6 +11,7 @@ import {
 } from './Binary Tree Postorder Traversal';
 import { levelOrder } from './Binary Tree Level Order Traversal';
 import { maxDepth } from './Maximum Depth of Binary Tree';
+import { isSymmetric, symmetricTree } from './Symmetric Tree';
 
 export const main = (): void => {
   logger(preorderTraversal, preorderTraversalTree);
@@ -22,4 +23,6 @@ export const main = (): void => {
   logger(levelOrder, postOrderTraversalTree);
 
   logger(maxDepth, postOrderTraversalTree);
+
+  logger(isSymmetric, symmetricTree);
 };
